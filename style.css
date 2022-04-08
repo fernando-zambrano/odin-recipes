@@ -1,0 +1,37 @@
+* {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h1, 
+h2, 
+a {
+  color: purple;
+}
+
+img {
+  border-color: purple;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Source: https://css-tricks.com/finally-it-will-be-easy-to-change-the-color-of-list-bullets/ */
+ul li::marker,
+ol li::marker { 
+  color: purple;
+  font-weight: bold;
+
+}
+
+ul li {
+  list-style-type: circle;
+  padding-top: 0.5em;
+}
+
+ol li {
+  padding-top: 1em;
+}
